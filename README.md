@@ -1,8 +1,8 @@
 <div align="center">
 
-# asdf-fetch-pass [![Build](https://github.com/mrjk/asdf-fetch-pass/actions/workflows/build.yml/badge.svg)](https://github.com/mrjk/asdf-fetch-pass/actions/workflows/build.yml) [![Lint](https://github.com/mrjk/asdf-fetch-pass/actions/workflows/lint.yml/badge.svg)](https://github.com/mrjk/asdf-fetch-pass/actions/workflows/lint.yml)
+# asdf-keyring-proxy [![Build](https://github.com/mrjk/asdf-keyring-proxy/actions/workflows/build.yml/badge.svg)](https://github.com/mrjk/asdf-keyring-proxy/actions/workflows/build.yml) [![Lint](https://github.com/mrjk/asdf-keyring-proxy/actions/workflows/lint.yml/badge.svg)](https://github.com/mrjk/asdf-keyring-proxy/actions/workflows/lint.yml)
 
-[fetch-pass](https://github.com/mrjk/fetch-pass) plugin for the [asdf version manager](https://asdf-vm.com).
+[keyring-proxy](https://github.com/mrjk/keyring-proxy) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -25,25 +25,25 @@
 Plugin:
 
 ```shell
-asdf plugin add fetch-pass
+asdf plugin add keyring-proxy
 # or
-asdf plugin add fetch-pass https://github.com/mrjk/asdf-fetch-pass.git
+asdf plugin add keyring-proxy https://github.com/mrjk/asdf-keyring-proxy.git
 ```
 
-fetch-pass:
+keyring-proxy:
 
 ```shell
 # Show all installable versions
-asdf list-all fetch-pass
+asdf list-all keyring-proxy
 
 # Install specific version
-asdf install fetch-pass latest
+asdf install keyring-proxy latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global fetch-pass latest
+asdf global keyring-proxy latest
 
-# Now fetch-pass commands are available
-fetch-pass --version
+# Now keyring-proxy commands are available
+keyring-proxy --version
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
@@ -53,7 +53,7 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/mrjk/asdf-fetch-pass/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/mrjk/asdf-keyring-proxy/graphs/contributors)!
 
 # License
 
