@@ -5,7 +5,7 @@ set -euo pipefail
 # TODO: Ensure this is the correct GitHub homepage where releases can be downloaded for fetch-pass.
 GH_REPO="https://github.com/mrjk/fetch-pass"
 TOOL_NAME="fetch-pass"
-TOOL_TEST="--version"
+TOOL_TEST="fetch-pass --version"
 
 fail() {
 	echo -e "asdf-$TOOL_NAME: $*"
