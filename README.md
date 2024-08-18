@@ -43,7 +43,7 @@ asdf install fetch-pass latest
 asdf global fetch-pass latest
 
 # Now fetch-pass commands are available
---version
+fetch-pass --version
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
